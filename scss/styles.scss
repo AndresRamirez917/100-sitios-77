@@ -130,7 +130,7 @@ img {
             margin: 2rem 0;
         }
         ul {
-            margin-top: 2rem;
+            margin-top: 3rem;
             display: flex;
         }
         li {
@@ -238,6 +238,18 @@ img {
             color: #fff;
             text-align: justify;
            }
+        }
+    }
+}
+
+//gallerys
+#gallerys {
+    .gallery-flex {
+        img {
+            width: 50%;
+        }
+        p {
+            line-height: 30px;
         }
     }
 }

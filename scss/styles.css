@@ -122,7 +122,7 @@ img {
   margin: 2rem 0;
 }
 #mainheader-2 .navbar ul {
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: flex;
 }
 #mainheader-2 .navbar li {
@@ -219,6 +219,13 @@ img {
   line-height: 27px;
   color: #fff;
   text-align: justify;
+}
+
+#gallerys .gallery-flex img {
+  width: 50%;
+}
+#gallerys .gallery-flex p {
+  line-height: 30px;
 }
 
 #social {
