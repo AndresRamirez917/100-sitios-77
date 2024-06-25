@@ -30,14 +30,14 @@ ul {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(250px, auto);
+  grid-auto-rows: minmax(400px, auto);
   gap: 10px;
 }
 
 .flex {
   display: flex;
   flex: 1;
-  gap: 50px;
+  gap: 30px;
 }
 
 img {
@@ -48,6 +48,7 @@ img {
   font-size: 4.5rem;
   color: #fff;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -91,20 +92,47 @@ img {
   justify-content: space-between;
   width: 100%;
 }
+#mainheader #showcase {
+  width: 80%;
+  margin: 0 auto;
+}
+#mainheader #showcase .showcase-text {
+  margin-top: 5rem;
+}
 #mainheader #showcase .showcase-text h2 {
   font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
   color: #fff;
 }
-#mainheader #showcase .showcase-text .title {
-  font-size: 3rem;
-  color: red;
-}
 #mainheader #showcase .showcase-text p {
   width: 50%;
   color: #fff;
-  line-height: 40px;
+  line-height: 25px;
+}
+
+#mainheader-2 {
+  background: url("/images/background-gallery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader-2 .navbar .logo {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+#mainheader-2 .navbar ul {
+  margin-top: 2rem;
+  display: flex;
+}
+#mainheader-2 .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader-2 .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #gallery {
@@ -116,7 +144,7 @@ img {
 #gallery .gallery-grid {
   width: 80%;
   margin: 0 auto;
-  padding: 4rem 0 7rem 0;
+  padding: 4rem 0 1rem 0;
 }
 #gallery .box-1 {
   background: url("/images/gallery-1.jpg");
@@ -144,7 +172,24 @@ img {
   grid-row: 2/3;
 }
 #gallery .box-2 a, #gallery .box-3 a, #gallery .box-4 a, #gallery .box-5 a {
+  width: 150px;
+  padding: 15rem 1rem 2rem 1rem;
   display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+#gallery .box-1 a {
+  width: 150px;
+  padding: 20rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
 }
 #gallery .box-1,
 #gallery .box-2,
@@ -156,9 +201,33 @@ img {
   background-size: cover;
 }
 
+#gallery-2 {
+  background: url("/images/background-gallery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery-2 .gallery-2-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 2rem;
+}
+#gallery-2 .gallery-2-row .gallery2-flex p {
+  font-size: small;
+  line-height: 27px;
+  color: #fff;
+  text-align: justify;
+}
+
 #social {
   width: 80%;
   text-align: left;
+  margin-top: 2rem;
+}
+#social img {
+  width: 50px;
 }
 
 #footer {
