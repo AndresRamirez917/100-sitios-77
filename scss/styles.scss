@@ -55,6 +55,7 @@ img {
 }
 
 .subtitle {
+    text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
     margin: 2rem 0;
@@ -227,6 +228,9 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    h2 {
+        color: #fff;
+    }
     .gallery-2-row {
         width: 80%;
         margin: 0 auto;
@@ -241,7 +245,6 @@ img {
             text-align: justify;
            }
         }
-    }
 }
 
 //gallerys

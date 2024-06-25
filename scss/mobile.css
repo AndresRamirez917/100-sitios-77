@@ -1,3 +1,6 @@
+#mainheader, #mainheader-2 {
+  background-size: 100% 100%;
+}
 #mainheader .navbar .logo, #mainheader-2 .navbar .logo {
   display: block;
   text-align: center;
@@ -16,12 +19,9 @@
 }
 #mainheader #showcase, #mainheader-2 #showcase {
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
 }
 #mainheader #showcase .showcase-text h2, #mainheader-2 #showcase .showcase-text h2 {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   display: block;
 }
@@ -29,9 +29,7 @@
   font-size: 3rem;
 }
 #mainheader #showcase .showcase-text p, #mainheader-2 #showcase .showcase-text p {
-  text-align: center;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 #gallery .gallery-grid {

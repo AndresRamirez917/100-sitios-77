@@ -52,6 +52,7 @@ img {
 }
 
 .subtitle {
+  text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
   margin: 2rem 0;
@@ -209,6 +210,9 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#gallery-2 h2 {
+  color: #fff;
+}
 #gallery-2 .gallery-2-row {
   width: 80%;
   margin: 0 auto;
@@ -221,6 +225,12 @@ img {
   line-height: 27px;
   color: #fff;
   text-align: justify;
+}
+#gallery-2 .gallery-2-row .gallery2-flex img {
+  flex: 1;
+}
+#gallery-2 .gallery-2-row img {
+  flex: 1;
 }
 
 #gallerys .gallery-flex img {

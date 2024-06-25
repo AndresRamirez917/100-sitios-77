@@ -1,5 +1,6 @@
 //mainheader
 #mainheader, #mainheader-2 {
+    background-size: 100% 100%;
     .navbar {
         .logo {
             display: block;
@@ -20,12 +21,9 @@
     }
     #showcase {
         width: 100%;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
         .showcase-text {
          h2 {
-            text-align: center;
+            text-align: left;
             margin: 0 auto;
             display: block;
          }
@@ -33,9 +31,8 @@
             font-size: 3rem;
          }
          p {
-            text-align: center;
-            margin: 0 auto;
-            text-align: center;
+            text-align: left;
+         
          }
 
         }
@@ -54,7 +51,7 @@
     .gallery-2-row {
         display: block;
         .gallery2-flex {
-            margin-bottom: 2rem;
+            margin-bottom: 2rem;  
         }
     }
 }
